@@ -1,0 +1,85 @@
+body {
+ font-family: 'Bebas Neue', sans-serif;
+ font-size: 1.1rem;
+ overflow-x: hidden;
+}
+
+.main {
+ width: 100vw;
+ min-height: calc(100vh - 140px);
+ background: linear-gradient(135.2deg, #525969 27.66%, #30343D 90.46%),
+ #525969;
+}
+
+.sidebar {
+ background: #666F83;
+}
+
+.main-half {
+ width: 100%;
+ height: 50%;
+}
+
+.cards{
+ position: relative;
+ width: fit-content;
+ border: 3px solid #B3F475;
+ border-radius: 10%;
+ padding: 4px;
+
+ img {
+  height: 95%;
+  width: auto;
+  margin:2px;
+ }
+}
+
+#deck {
+ height: 95%;
+ width: 95%;
+ margin: 2px;
+ background: url('/img/back.png');
+ background-position: center;
+ background-size: contain;
+ font-size: 2.2rem;
+ color: #000;
+}
+
+.cards--house {
+ min-width: 70px;
+ height: 97px;
+}
+
+.cards--player {
+ min-width: 90px;
+ height: 127px;
+}
+
+
+.cards-outer {
+ position: relative;
+ width: fit-content;
+ margin: auto;
+}
+
+.point-box{
+ width: 30px;
+ height: 30px;
+ border-radius: 50%;
+ font-size: 1rem;
+ background: #FD3D3D;
+ color: white;
+ position: absolute;
+ top: -12px;
+ right: -12px;
+}
+
+#player-name-input {
+ border: none;
+ padding: 15px 32px;
+ display: inline-block;
+ font-size: 1rem;
+ font-family: 'Bebas Neue',
+ sans-serif;
+ outline: none;
+}

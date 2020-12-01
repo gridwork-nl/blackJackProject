@@ -1,0 +1,20 @@
+.main-btn {
+  background: #B3F475;
+  margin: 0 5px;
+  width: 80px;
+  border: none;
+  padding: 15px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  font-family: 'Bebas Neue',
+  sans-serif;
+  cursor: pointer;
+  outline: none;
+  transition: background 0.3s ease;
+
+  &:hover {
+   background: #7fb34e;
+  }
+ }

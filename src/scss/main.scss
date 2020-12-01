@@ -1,0 +1,48 @@
+/*
+Stylesheet: Blackjack App
+Author: Jasja Prick
+Author URI: https://gridwork.nl
+Version: 1.0.0
+License: GNU General Public License v2 or later
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Modules
+- Alignment
+- Global
+- Btns
+- Header
+- Body
+- Footer
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Modules
+--------------------------------------------------------------*/
+
+/* Aligment
+--------------------------------------------- */
+@import 'modules/alignment';
+
+/* Global
+--------------------------------------------- */
+@import 'modules/global';
+
+/* Btns
+--------------------------------------------- */
+@import 'modules/btn';
+
+
+/* Header
+--------------------------------------------- */
+@import 'modules/header';
+
+/* Body
+--------------------------------------------- */
+@import 'modules/body';
+
+/* Footer
+--------------------------------------------- */
+@import 'modules/footer';
