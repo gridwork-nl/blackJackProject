@@ -27,7 +27,6 @@ class GamePlay {
   aceCheck(player) {
     let points = player.points + player.hand[player.hand.length - 1].weight;
     for (let i = 0; i < player.hand.length; i++) {
-      console.log(player.hand[i].value);
       if (player.hand[i].value === "ace" && points > 21) {
         player.hand[i].weight = 1;
       }
