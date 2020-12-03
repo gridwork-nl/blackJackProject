@@ -10,21 +10,17 @@ License: GNU General Public License v2 or later
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
 # Modules
-- Alignment
 - Global
 - Btns
 - Header
 - Body
 - Footer
+- Popup
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
 # Modules
 --------------------------------------------------------------*/
-
-/* Aligment
---------------------------------------------- */
-@import 'modules/alignment';
 
 /* Global
 --------------------------------------------- */
@@ -46,3 +42,7 @@ License: GNU General Public License v2 or later
 /* Footer
 --------------------------------------------- */
 @import 'modules/footer';
+
+/* Popup
+--------------------------------------------- */
+@import 'modules/popup';
