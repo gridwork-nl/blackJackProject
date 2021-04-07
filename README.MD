@@ -1,16 +1,27 @@
-Dear codeworks team,
+# Online Blackjack
 
-Thank you for taking the time to read me!
-
-This folder contains the production setup for the admission challenge.
-The project has been built using vanilla JS and SCSS.
+Welcome to online blackjack! Can you beat the computer?
+Show off your casino skills in this fun and responsive
+blackjack application
 
 To view the app in live production, please visit https://onlineblackjackapp.netlify.app/
+Alternatively, you can run the app simply by running the 
 
-You can also view the source code in my GitHub account at https://github.com/gridwork-nl/blackJackProject
+### Rules
+
+The goal of blackjack is to beat the dealer's hand without going over 21. Face cards are worth 10. Each player starts with two cards, one of the dealer's cards is hidden until the end. To 'Hit' is to ask for another card. If you go over 21 you bust, and the dealer wins regardless of the dealer's hand.
+
+![image](https://user-images.githubusercontent.com/59917428/113857847-4ea79100-97a3-11eb-875c-905889025aa9.png)
+
+### Tech Stack
+- HTML5
+- Sass
+- JavaScript
+- Webpack
+- Netlify for deployment
+
 
 Version 1.1
 
-The ace bug has been fixed by evaluating the player points total outside of the loop in the aceCheck function because inside the loop it was evaluating the player points total for each individual hand array index so it didn't get the total amount properly.
+Built with ❤️ by Jasja Prick - <a href='https://www.linkedin.com/in/jasja-prick/' target='_blank'>LinkedIn</a>
 
-By setting the player points total to player.points (up until previous turn) + the last item in the hand array index (current turn), the player points get evaluated as a whole before the evaluating of the ace starts.
